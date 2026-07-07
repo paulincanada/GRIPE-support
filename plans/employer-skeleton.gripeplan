@@ -1,0 +1,106 @@
+{
+  "carrier" : "",
+  "categories" : [
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "annualMaximum" : "2000",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "250",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "Employer plan",
+  "notes" : "A generic skeleton, not any carrier's actual grid. Set the real maximums, coinsurance, and referral rules from your benefits booklet.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1
+}

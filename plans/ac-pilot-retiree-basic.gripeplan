@@ -1,0 +1,75 @@
+{
+  "carrier" : "Manulife",
+  "categories" : [
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perFamily",
+      "poolKey" : "acuchiro",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perFamily",
+      "poolKey" : "acuchiro",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "annualMaximum" : "800",
+      "coinsuranceRate" : "0.75",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "800",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : true,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "45",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "Air Canada pilots (retiree — basic)",
+  "notes" : "From the AR3\/AR4 booklet effective 1 January 2025. Extended Health Care is elected ONCE, at retirement — decline it then and you can never apply later; the default election is Basic, single coverage. The Basic plan carries a $7,500 LIFETIME Extended Health Care maximum, re-established at only $750 per year — a serious ceiling; watch it. Deductible $50 individual \/ $100 family per calendar year (with a 3-month carry-forward). Coinsurance runs on a CORRIDOR: 80% of the first $500 of eligible expenses each calendar year, then 100% for the rest of the year (the 80% shown here is the corridor floor); hospital care and physiotherapy\/physical-rehabilitation are always 100%, electric wheelchairs 50%. Basic-plan paramedicals: physiotherapy and speech therapy have NO maximum (speech needs a physician's recommendation); acupuncture and chiropractic share $300 PER FAMILY combined, sub-capped at $150 per person (chiropractor X-rays $25\/yr) — the per-person cap rides in these notes. Mental health, naturopath, osteopath, and podiatry are NOT covered on the basic plan — no categories, no phantom headroom. Drugs: ManuScript Generic Plan 2 on a pay-direct card, 34-day supply (100-day maintenance), flu vaccines $40 each, sexual dysfunction $1,000\/yr, smoking cessation $690 lifetime outside Quebec. Vision is nearly bare: eye exams $45 per 24 months, plus post-cataract initial eyewear only. Dental (provided by Air Canada, adjudicated by Manulife, current-year fee guide): 100% diagnostic\/preventive (deductible-exempt), 75% restorative and supplementary basic, 50% dentures and major — ALL inside one $800 combined annual maximum with dentures sub-capped at $550; orthodontics is not covered. No maximum age.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1,
+  "sourceDateISO" : "2025-01-01"
+}

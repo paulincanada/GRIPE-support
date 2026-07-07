@@ -1,0 +1,18 @@
+{
+  "carrier" : "Government of Ontario",
+  "categories" : [
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "provincial",
+  "name" : "Ontario Drug Benefit",
+  "notes" : "Seniors join automatically: coverage starts the first day of the month after turning 65 (ODB sends a letter about three months ahead), and the first-year deductible is prorated by start month. Standard terms: $100 deductible per program year (1 August to 31 July), then a co-payment of up to $6.11 per fill. The income-tested Seniors Co-Payment Program drops the deductible and caps the co-payment at $2. Deductible and co-payments come off what ODB pays at the till — record the pharmacy receipt figures as ground truth. Figures verified July 2026; confirm at ontario.ca.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 8,
+  "sourceDateISO" : "2026-07-07"
+}

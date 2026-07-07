@@ -1,0 +1,105 @@
+{
+  "carrier" : "Manulife",
+  "categories" : [
+    {
+      "annualMaximum" : "400",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "400",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "400",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "400",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "400",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "400",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : true,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "400",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "250",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "uOttawa (APUO)",
+  "notes" : "From the uOttawa APUO webinar deck (July 2026) — a summary, not the contract; confirm against the official booklet. Drugs: 80%, generic substitution, pay-direct card; Ontario has no deductible but a $6.11 dispensing-fee cap ($10.99 at Campus Pharmacy); Quebec $3 deductible per prescription. Most other health expenses reimburse at 100%. Paramedicals: $400 per practitioner type per calendar year (the deck lists no acupuncture coverage). Psychologist: 50% to $1,000\/yr, medical referral required. Vision: $250 per 2 calendar years for eyewear or laser (treated here as a plan-year figure), plus an $80 eye exam per 2 years on top. Hearing aids $2,000 per 5 years; vaccines $2,500\/yr; out-of-Canada lifetime $5M. Dental basic: 80% with NO annual maximum (ODA prior-year guide). The major\/orthodontic tier is an OPTIONAL rider — delete those categories if not purchased: major 50% to $1,500\/yr, orthodontics 50% to a $2,500 LIFETIME maximum (not annual). Members also get a Manulife HCSA (add it as its own plan): opting out of health adds $864\/yr and dental $243\/yr in benefit dollars; unused dollars carry forward one year, then are forfeited.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1
+}

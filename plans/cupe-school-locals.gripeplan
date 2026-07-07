@@ -1,0 +1,129 @@
+{
+  "carrier" : "Canada Life",
+  "categories" : [
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "paramedicalOther"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "250",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "CUPE 1145\/1770\/1775\/3260",
+  "notes" : "From the booklet published April 2026 — confirm against the current edition. Health reimburses at 100% of Canada Life's reasonable-and-customary assessment. Drugs: 100% after you pay the first $7.50 of EACH eligible drug expense (a per-drug charge, not co-insurance), pay-direct card; vaccines $500 lifetime; smoking cessation $100 lifetime at 50%; sexual dysfunction medications $250\/yr. Paramedicals: ONE $1,500 combined annual pool spanning acupuncturists, chiropodists\/podiatrists, chiropractors, massage, naturopaths, osteopaths, physiotherapists, speech therapists, AND the mental-health practitioners (psychologists, social workers, psychotherapists, and a long list of counsellor designations); occupational therapists sit outside the pool at $300\/yr. Vision: eyewear $250 and one exam per 24 months (both every 12 months for children 18 and under) — treated here as a plan-year figure. Equipment: orthotics and orthopaedic shoes $240 COMBINED per year; hearing aids $900 per ear per 5 years; one insulin pump per lifetime; private-duty nursing $5,000\/yr. Dental (current-year fee guides): preventative and maintenance at 80% with no stated annual maximum; major restorative 50% to $1,000\/yr; orthodontics 50% to a $3,000 LIFETIME maximum (not annual).",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1,
+  "sourceDateISO" : "2026-04-01"
+}

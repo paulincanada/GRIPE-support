@@ -1,0 +1,101 @@
+{
+  "carrier" : "Canada Life",
+  "categories" : [
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "paramedicalOther"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "5000",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "750",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "400",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "PSHCP",
+  "notes" : "Verified against the June 2024 PSHCP member booklet and pshcp.ca (July 2026). Everything reimburses at 80% of reasonable and customary charges; no referral is needed for most paramedicals. Psychological services ($5,000\/yr) cover psychologist, psychotherapist, social worker, and counsellor combined; speech therapy includes audiologist; podiatry and chiropody share one $500. The catch-all paramedical category ($300) covers dietitian, occupational therapist, and lactation consultant, while electrologist is $1,200. Vision: eyeglasses\/contacts $400 per 2 calendar years on FIXED windows beginning every odd year (not rolling), eye exam once per window, laser $2,000 LIFETIME; the gauge treats vision as a plan-year figure. Drugs: 80%, generic-based, $8 dispensing-fee cap and 5 covered dispensing fees per year on maintenance medications; erectile dysfunction drugs $500\/yr; smoking cessation $2,000 lifetime; after $3,500 out-of-pocket drug costs in a calendar year, drugs reimburse at 100% for the rest of it. Equipment sub-limits: hearing aids $1,500 less the previous 60 months' claims, orthopaedic shoes $250\/yr, CGM and diabetic supplies $3,000\/yr each. Hospital provision pays a chosen level: $90\/$170\/$250 per day (I\/II\/III). RETIREES: the extended-health figures above are unchanged. Apply with the Pensioner Application within 60 days of retirement or face a 3-month waiting period; contributions come off the pension (the employer share differs, and Levels II\/III hospital are member-paid); residing outside Canada forfeits the out-of-province and hospital-outside-Canada provisions. Members 65+ in Ontario must enrol in the ODB before PSHCP pays on drugs — add ODB as its own plan at priority 1 for prescriptions. Dental is the separate PDSP, not this plan.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1,
+  "sourceDateISO" : "2024-06-01"
+}

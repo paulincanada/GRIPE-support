@@ -1,0 +1,124 @@
+{
+  "carrier" : "Manulife",
+  "categories" : [
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "City of Ottawa (CUPE 503)",
+  "notes" : "From the CUPE 503 member booklet (July 2026) — confirm against the current edition. Health: $25 deductible per calendar year, then 90% co-insurance for most expenses; vision at 100%. The $1,000 paramedical maximum is one pool shared across every practitioner category — and, per the booklet's detail wording, that includes psychologist (the summary omits it; confirm). Chiropractor and podiatrist pay after any provincial per-visit portion. Drugs: pay-direct benefit card, prescription-only, $7 dispensing-fee cap; drug coverage ends at 65 — enrol in the ODB and move it to priority 1. Vision is $300 per 24 months, treated here as a plan-year figure. Equipment sub-limits: custom orthotics $300\/yr, stock orthopaedic shoes $1,200\/yr, custom shoes 1 pair\/yr, hearing aids $500 per 5 years. Dental: no deductible, ODA fee guide (prior year); $1,500\/yr combined for basic through dentures; orthodontics 50% to a $3,000 LIFETIME maximum (not annual — mind the gauge). Most coverage ends at 65 or retirement.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1
+}

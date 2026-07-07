@@ -1,0 +1,120 @@
+{
+  "carrier" : "Canada Life",
+  "categories" : [
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "35",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "35",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "coinsuranceRate" : "0.85",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "2000",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "35",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "35",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "35",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "35",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "35",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "3000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "1400",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "340",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "Ontario Public Service (AMAPCEO)",
+  "notes" : "From the 2015 OPS Benefits Guide as amended by AMAPCEO's fact sheet (updated 11 August 2025); the base guide is dated, so confirm anything load-bearing. Drugs: 90% after a $3 per-prescription deductible, pay-direct card, dispensing fees capped at $11.99 with a 5-fee frequency cap on maintenance drugs; the OPS Catastrophic Drug Coverage pays 100% past $10,000 of eligible drug expenses in a year. Paramedicals: $35 per visit to $1,200 per calendar year FOR EACH practitioner type (masseur, physiotherapist, chiropractor, osteopath, naturopath, acupuncturist, chiropodist, podiatrist — the booklet gives chiropodist and podiatrist separate $1,200s, shown here as one podiatry category; podiatric office surgery adds $100\/yr); provincial maximums must be exhausted first where they exist. Mental health, per the April 2025 improvement: $3,000 per calendar year for psychologists, psychotherapists, MSW social workers, therapists, and counsellors, with no per-visit dollar cap (reasonable and customary applies). Speech therapy keeps the guide's $40 per half-hour to $1,400\/yr. Vision and hearing share a $10\/$20 deductible: eyewear or laser 100% to $340 per ROLLING 24 months (window starts at each purchase; the gauge treats it as a plan-year figure), routine exams 100% every 24 months outside that maximum, $50\/eye post-cataract. Equipment: orthotics 100% to $500\/yr; orthopaedic shoes 75% to $500\/yr; insulin pumps $2,000\/5 yrs; CGMs covered since 2020; diabetic supplies $2,000\/yr; wigs two per year at $1,000 each for alopecia or chemotherapy. Hospital top-up $120\/day. Dental: basic 85%; major restorative 50% to $2,000\/yr; dentures 50% to a $3,000 LIFETIME maximum; orthodontics 50% to a $3,000 LIFETIME maximum per child. Employer pays the SH&H, vision, and hearing premiums; out-of-country is an optional member-paid upgrade.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1,
+  "sourceDateISO" : "2025-08-11"
+}

@@ -1,0 +1,117 @@
+{
+  "carrier" : "OTIP",
+  "categories" : [
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "annualMaximum" : "2000",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "2000",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : true,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "paramedicalOther"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "OTIP Plan U (occasional\/casual)",
+  "notes" : "From the OCM Plan U guide dated September 2025 — confirm against the current edition. A voluntary, premium-paid plan; the benefit year runs 1 September to 31 August, and EVERYTHING health-side counts against an overall $20,000 per-benefit-year maximum. Base reimbursement 80% at reasonable-and-customary rates. Paramedicals carry NESTED caps: physiotherapist, chiropractor, and massage $500 each; naturopath, osteopath, podiatrist\/chiropodist, and dietitian\/nutritionist $300 each — AND those nine share a $1,000 combined maximum. The gauges here charge the shared pool against each practitioner's own cap, which is deliberately conservative: they can read 'spent' while combined room remains, and the EOB is always ground truth. Massage requires a doctor's referral. Mental health (psychologist, marriage and family therapist, social worker, psychotherapist, clinical counsellor, psychoanalyst) is its own $500 combined, outside the pool; speech-language pathology (with communicative disorders assistants) its own $300. Drugs: 80%, formulary with mandatory generic substitution, $8 dispensing-fee cap, 5 dispensing fees per prescription per 12 months on maintenance medications, pay-direct card. Vision: 100%, $300 per 2 BENEFIT years covering exams, glasses, contacts, and laser together — treated here as a plan-year figure. Equipment: hearing aids $1,000\/5 benefit years, orthotics $350\/yr, custom orthopaedic shoes $350\/yr, private-duty nursing $10,000\/yr, wigs $500 lifetime. Dental: ONE $2,000 per-benefit-year maximum across all dental — basic at 80%, major (crowns, bridges, dentures, implants) at 50%; orthodontics is not covered, so there is no category for it.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 9,
+  "sourceDateISO" : "2025-09-01"
+}

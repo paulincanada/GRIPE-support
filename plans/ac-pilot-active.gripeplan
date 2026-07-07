@@ -1,0 +1,117 @@
+{
+  "carrier" : "Manulife",
+  "categories" : [
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "annualMaximum" : "3500",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "3500",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "120",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "5000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "425",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "Air Canada pilots (active)",
+  "notes" : "From the Plans A\/A1 booklet effective 1 April 2026. The PLAN YEAR RUNS 1 APRIL TO 31 MARCH — maximums reset in spring, not January. Members elect All Extended Health Care or Out-of-Country-Only coverage; this template models the full election. Deductibles: $10\/$20 per plan year combined for drugs and extended health, $25\/$50 for dental, all with a 3-month carry-forward. Drugs: 100%, $1,000,000 lifetime, no dispensing cap on regular prescriptions (compounds $50 each), flu vaccines $40. Most practitioner maximums are PER FAMILY with a per-person sub-limit — the categories here carry the per-person figure ($1,000) and the family cap is $2,000, so three or more heavy users of one practitioner type can exhaust the family pool before their personal gauges show it. Physiotherapy (with athletic and physical-rehabilitation therapy) is $5,000 per person. Massage adds a $120 per-visit cap. Podiatry covers podiatrist, chiropodist, AND podologist combined. Mental health (clinical counsellors, marriage and family therapists, psychoanalysts, psychologists, psychotherapists, social workers) reimburses at 50% per visit to $1,500 per person ($3,000 per family). Vision: eyewear $425 and exams $125 per 24 months at 100% — treated here as a plan-year figure. Dental (current-year fee guide): 100% diagnostic\/preventive, 90% restorative and supplementary, 50% dentures and major — $3,500 per plan year combined for Levels I–IV; orthodontics 50% to a $3,000 LIFETIME maximum, dependent children only. Coverage ends the first of the month after retirement — switch to the retiree template (and mind its one-shot election) when that day comes.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 4,
+  "sourceDateISO" : "2026-04-01"
+}

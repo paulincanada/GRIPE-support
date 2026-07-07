@@ -1,0 +1,17 @@
+{
+  "carrier" : "",
+  "categories" : [
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "other"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "hcsa",
+  "name" : "Health Care Spending Account",
+  "notes" : "Set the category maximum to this year's account balance and the plan-year start to your HCSA's actual year — they are often not calendar years. Give the enrolment a high priority number so the HCSA mops up last.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1
+}

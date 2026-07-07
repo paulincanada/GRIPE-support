@@ -1,0 +1,131 @@
+{
+  "carrier" : "Sun Life",
+  "categories" : [
+    {
+      "annualMaximum" : "1100",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "1100",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "annualMaximum" : "2750",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "2750",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "1100",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "1100",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "1100",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "1100",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "paramedicalOther"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "1100",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "3500",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "1100",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "400",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "NAV CANADA (management FlexPlus)",
+  "notes" : "FlexPlus is a pick-your-level plan; THIS TEMPLATE SHIPS Flex 3 health and Flex 2 dental — adjust every figure to your election (booklet dated 1 September 2025). Health reimbursement by level: 70\/80\/90\/100%. Paramedical combined pool: Flex 1 $500 and Flex 2 $750 (chiropractor + massage only); Flex 3 $1,100 and Flex 4 $1,400 (ten practitioner types incl. audiologist and dietitian). Mental health combined: $3,000 \/ $3,500 \/ $4,000 (Flex 2\/3\/4). Physiotherapy + athletic therapy combined: $1,000 \/ $1,200 \/ $1,500 \/ $1,750. Electrologist not covered. Drugs by level (70\/80\/90\/95%), $12 dispensing-fee cap, 5 dispensing fees\/yr on maintenance drugs. Vision: not covered \/ $300 \/ $400 \/ $500 per 24 months, exams at the level's percentage. Dental (Flex 1\/2\/3): basic 80\/90\/100%, major –\/50\/60%, combined annual maximum $1,750 \/ $2,750 \/ $3,500; orthodontics –\/50\/60% to a LIFETIME $3,250 \/ $4,000. Flex credits fund a Health Spending Account — add it as its own plan.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1,
+  "sourceDateISO" : "2025-09-01"
+}

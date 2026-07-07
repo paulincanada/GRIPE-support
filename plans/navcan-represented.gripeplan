@@ -1,0 +1,133 @@
+{
+  "carrier" : "Sun Life",
+  "categories" : [
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "annualMaximum" : "2500",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "2500",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "201",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "paramedicalOther"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "0.85",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "1750",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "350",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "NAV CANADA (represented)",
+  "notes" : "From the represented-employee booklet dated 1 September 2025 — confirm against the current edition. Capped benefits pay 100%; uncapped health expenses pay 80%. Paramedicals share ONE $1,200 combined annual maximum (acupuncture, chiropody\/podiatry, naturopath, osteopath, massage, chiropractor, electrology at $201 per visit, speech, and physiotherapy) — but physiotherapy can continue PAST the pool with a physician's referral renewed every 12 months and manual approval. Mental health is its own $1,750 (psychologist, social worker, psychotherapist, marital\/family therapist, psychiatrist, clinical counsellor, psycho-educator combined). Drugs: generic-based at 85% (80% where no generic exists), pay-direct card; a $10 per-script fee applies outside the Preferred Pharmacy Network ($4 in Quebec regardless); 5 dispensing fees\/yr on maintenance drugs; smoking cessation $1,000 lifetime; erectile dysfunction $1,300\/yr. Vision: $350 per 2-calendar-year period at 100% (laser shares the maximum), eye exam once per period — treated here as a plan-year figure. Dental: 90% basic \/ 50% major with a $2,500 combined annual maximum; orthodontics $3,000 LIFETIME. Members also get a Health Spending Account — add it as its own plan.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1,
+  "sourceDateISO" : "2025-09-01"
+}

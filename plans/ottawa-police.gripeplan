@@ -1,0 +1,110 @@
+{
+  "carrier" : "Coughlin & Associates",
+  "categories" : [
+    {
+      "annualMaximum" : "1800",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "1800",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "annualMaximum" : "1800",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "1800",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "1800",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : true,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "1800",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "annualMaximum" : "1800",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "1800",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "1800",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "1800",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "Ottawa Police Association",
+  "notes" : "From the OPA booklet effective January 2025 — confirm against the current edition. Health carries a $125,000 LIFETIME maximum per person. Paramedicals: 100% less a $12 per-visit fee (psychologist exempt); each practitioner type gets its OWN $1,800 per calendar year; chiropractor and naturopath each social worker: UNLIMITED, no per-visit fee. Drugs: 90% (100% at a People Advantage network pharmacy), no deductible, no dispensing cap, 3-month supply limit, TELUS AdjudiCare pay-direct card. Vision: $500 per 2 calendar years at 100%, eye exams ($75\/2 yrs) inside that maximum, laser eligible — treated here as a plan-year figure. Equipment (90%): custom orthotics $300\/yr and orthopaedic shoes $150\/yr, both physician-referral; hearing aids $500 per ear per 36 months. Dental: $25\/$50 deductible, 100% basic \/ 80% major \/ 50% orthodontic, with basic, major AND orthodontic sharing one $1,800 combined annual maximum. Dependent children to 21, or 25 as full-time students.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1,
+  "sourceDateISO" : "2025-01-01"
+}

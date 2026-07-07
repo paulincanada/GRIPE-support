@@ -1,0 +1,103 @@
+{
+  "carrier" : "Manulife",
+  "categories" : [
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perFamily",
+      "poolKey" : "acuchiro",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perFamily",
+      "poolKey" : "acuchiro",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "annualMaximum" : "800",
+      "coinsuranceRate" : "0.75",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "800",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : true,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "45",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "Air Canada pilots (retiree + supplementary)",
+  "notes" : "The AR3\/AR4 Basic plan plus the Voluntary Supplementary Health Plan (booklet effective 1 January 2025). Everything from the basic template applies — $50\/$100 deductible, the 80%-of-first-$500-then-100% coinsurance corridor, physiotherapy and hospital at 100%, the same drug plan, the same $800 dental pool with no orthodontics. The supplementary tier adds: mental health (clinical counsellors, marriage and family therapists, psychoanalysts, psychologists, psychotherapists, social workers) $300\/yr; naturopath $300\/yr; osteopath $300\/yr with $50 X-ray; podiatry\/chiropody $300\/yr with $50 X-ray; the acupuncture + chiropractic $300 family pool loses its per-person sub-cap (chiropractor X-rays rise to $50\/yr); private-duty nursing rises from $30 to $75 per day; equipment extras such as breast prostheses, wigs, and glucose monitors ($1,050\/yr) become eligible. The lifetime Extended Health Care maximum rises from Basic's $7,500 to $100,000, re-established at up to $2,000 per year. Elected once at retirement (decline then and you can never apply later) with a two-year minimum commitment to the supplementary tier.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1,
+  "sourceDateISO" : "2025-01-01"
+}

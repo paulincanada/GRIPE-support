@@ -1,0 +1,104 @@
+{
+  "carrier" : "Coughlin & Associates",
+  "categories" : [
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "0.8",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : true,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "150",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "Ottawa Police (retiree pre-2001\/02)",
+  "notes" : "From the retiree booklet effective 1 January 2024 — this plan is ONLY for officers who retired before 21 September 2001 and civilians before 30 May 2002 (and survivors). $25\/$50 deductible per calendar year; $125,000 lifetime major-medical maximum with a $1,000\/yr continuing allowance after. Paramedicals: $500 per practitioner type per calendar year at 100% — chiropractor and naturopath each add X-rays at 90% to $50; the osteopath requires a physician's referral; acupuncture is EXPLICITLY EXCLUDED and podiatry is not listed, so neither has a category. Drugs: 100% through the Coughlin Preferred Provider Network (dispensing fee capped at the ODB maximum), 90% elsewhere; the ODB deductible and co-payment are NOT eligible for reimbursement under this plan — unlike some plans, they cannot cascade here; smoking cessation $300 lifetime, anti-obesity $1,500\/yr. Vision: $150 per 2 calendar years, no deductible — treated here as a plan-year figure. Equipment: orthopaedic footwear $150\/yr and custom orthotics $300\/yr, both on written referral. Dental (current-year fee guide): basic 100%, major 80%, orthodontic 50%, ALL sharing one $1,500 combined annual maximum (accidental dental is separate and unlimited). Out-of-country coverage ends at 80 ($5M lifetime under 70, $2M for 70–79).",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1,
+  "sourceDateISO" : "2024-01-01"
+}
