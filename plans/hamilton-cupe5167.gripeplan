@@ -1,0 +1,86 @@
+{
+  "carrier" : "Manulife",
+  "categories" : [
+    {
+      "annualMaximum" : "300",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "360",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "30",
+      "requiresReferral" : true,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : true,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "350",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "City of Hamilton (CUPE 5167)",
+  "notes" : "From the booklet current to 21 July 2019 — a dated edition, so treat every figure as needing confirmation. No deductible; 100% up to each benefit's maximum. Drugs: ManuScript Generic Plan 2 with a $7 dispensing cap; smoking cessation $300\/yr. Paramedicals are narrow and specific: chiropractor $300\/yr; massage $30 per visit LIMITED TO 12 VISITS per calendar year (encoded as $360\/yr with the $30 visit cap), physician's recommendation required; speech pathology $200\/yr, recommendation required; physiotherapy $1,500\/yr with initial assessments NOT covered. Mental health: $1,000\/yr COMBINED across clinical psychologist, psychiatrist, psychotherapist, and social worker, limited to two visits per month. Naturopath, osteopath, acupuncture, and podiatry services are not covered — no categories. Vision: $350 per 24 months covering exams, eyewear, AND laser combined (treated here as a plan-year figure); therapeutic contacts add $250 lifetime. Dental (CURRENT-year ODA guide): basic and supplementary 100% UNLIMITED; dentures and major restorative 50% sharing $1,500\/yr (one category covers both); orthodontics 50% to a $2,500 LIFETIME maximum. Coverage ends at retirement (a retiree plan exists per the booklet's retiree provisions).",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1,
+  "sourceDateISO" : "2019-07-21"
+}
