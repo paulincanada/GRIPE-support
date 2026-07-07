@@ -1,0 +1,117 @@
+{
+  "carrier" : "Manulife",
+  "categories" : [
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "annualMaximum" : "3000",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "3000",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "110",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "4000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "425",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "Air Canada flight attendants (CUPE)",
+  "notes" : "From the Plans C\/CL booklet effective 1 October 2025 (produced March 2026). The PLAN YEAR RUNS 1 APRIL TO 31 MARCH. Deductibles: $10\/$20 per plan year combined for drugs and extended health, $25\/$50 dental, with a 3-month carry-forward. Drugs: 100% with a $1,000,000 lifetime maximum. Practitioner maximums are PER FAMILY ($2,000) with a $1,000 per-person sub-limit — the categories carry the per-person figure, so three or more heavy users of one type can exhaust the family pool before their personal gauges show it. Physiotherapy (with athletic and physical-rehabilitation therapy) is $4,000 per plan year — the booklet omits whether that is per person or per family; shown per person, confirm with Manulife. Massage adds a $110 per-visit cap; chiropractor, osteopath, and podiatry add $50\/yr X-ray allowances; podiatry combines podiatrist\/chiropodist and podologist. Mental health (clinical counsellors, marriage and family therapists, psychoanalysts, psychologists, psychotherapists, social workers) reimburses at 50% per visit to $1,500 per person ($3,000 family). Private-duty nursing pays only 60%, electric wheelchairs 50%. Vision: eyewear $425 and exams $125 per 24 months at 100%; laser is capped at a $600 LIFETIME maximum; therapeutic contacts $975 lifetime. Dental (current-year fee guide): 100% diagnostic\/preventive, 90% restorative and supplementary, 50% dentures and major — $3,000 per plan year combined for Levels I–IV; orthodontics 50% to a $3,000 LIFETIME maximum. Coverage ends the first of the month after retirement.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 4,
+  "sourceDateISO" : "2025-10-01"
+}
