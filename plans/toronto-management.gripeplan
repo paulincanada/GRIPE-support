@@ -1,0 +1,113 @@
+{
+  "carrier" : "Green Shield",
+  "categories" : [
+    {
+      "annualMaximum" : "2500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "4000",
+      "coinsuranceRate" : "0.6",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "2500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "2500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "2500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "2500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "2500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "1500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "2500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "paramedical",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "500",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "City of Toronto (management)",
+  "notes" : "LAYERED SOURCE, read with care: the base is the City's 2013 benefit book (printed May 2013, then Manulife) as amended by the approved 2025–2028 changes for management\/non-union employees (Green Shield carrier, Green Shield reasonable-and-customary rates from November 2025). Anything not restated by the amendments is 2013 vintage — confirm before relying on it. Per the amendments: paramedicals are ONE $2,500 combined annual pool per person (chiropractor, osteopath, podiatrist, chiropodist, speech, massage, physiotherapy, naturopath — acupuncture is not listed and has no category); mental health $1,500 per person per year from January 2026; vision $500 per 24 months plus a $100 routine exam per 24 months (November 2025); gender affirmation $10,000 lifetime; out-of-country becomes emergency-only. From the 2013 base: drugs at 100%, generic-based, pay-direct card ($9 dispensing cap and $300\/yr smoking cessation as of 2013 — confirm under Green Shield); hospital semi-private at 100%; dental with no deductible — basic and supplementary at 100% UNLIMITED, dentures 70% and major 60% sharing a $4,000 annual pool (the pooled category shows 60%; dentures actually pay 70%), orthodontics 50% to a $4,000 LIFETIME maximum, prior-year ODA fee guide. Coverage ends at 65 or retirement.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1,
+  "sourceDateISO" : "2025-11-01"
+}

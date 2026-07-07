@@ -1,0 +1,131 @@
+{
+  "carrier" : "Canada Life",
+  "categories" : [
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "75",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "acupuncture"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "75",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "2500",
+      "coinsuranceRate" : "0.6",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dentalmajor",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "75",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "75",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "annualMaximum" : "2500",
+      "coinsuranceRate" : "0.6",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dentalmajor",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "75",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "75",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "paramedicalOther"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "75",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "75",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "1200",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "75",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "600",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "OPP Association (active)",
+  "notes" : "From the OPPA Plan Overview dated April 2026 — confirm against the current edition; retired members are a separate policy (#6772) with its own grid. Paramedicals: $75 per visit to $1,200 per person per calendar year FOR EACH practitioner type (acupuncturist, chiropractor, chiropodist, naturopath, physiotherapist, osteopath, podiatrist, massage, speech, and occupational therapist — the catch-all category carries the OT); podiatry's $1,200 includes a $100\/yr office-surgery allowance and merges podiatrist + chiropodist; provincial benefits must be exhausted first where they exist. PSYCHOLOGY IS UNLIMITED — individual, family, and group therapy by psychologists, psychological associates, or MSW social workers, with NO referral required. Drugs: 90% with a $10 dispensing-fee cap, pay-direct card, vaccines included; erectile dysfunction $1,000\/yr; smoking cessation $1,000 lifetime. At 65 the pharmacy bills the ODB first and the remainder — INCLUDING the ODB deductible — goes to Canada Life, so ODB amounts cascade here; add ODB at priority 1. Vision: eyewear $600 per 24 months (children 12 and under: every 6 months — mind the gauge for kids), laser $1,500 LIFETIME, exams at reasonable fees every 24 months. Hearing aids $1,500\/3 yrs; CPAP $3,000\/5 yrs; hospital $225\/day. Dental (ODA General Practitioners guide): basic at 90% with NO annual maximum; major restorative AND orthodontics at 60% sharing a $2,500 annual maximum per person.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 1,
+  "sourceDateISO" : "2026-04-01"
+}
