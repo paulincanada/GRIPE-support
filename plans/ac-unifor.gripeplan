@@ -1,0 +1,113 @@
+{
+  "carrier" : "Manulife",
+  "categories" : [
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "50",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "chiropractic"
+    },
+    {
+      "annualMaximum" : "2000",
+      "coinsuranceRate" : "0.9",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalBasic"
+    },
+    {
+      "annualMaximum" : "2000",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "poolKey" : "dental",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "dentalMajor"
+    },
+    {
+      "annualMaximum" : "800",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perFamily",
+      "perVisitMaximum" : "80",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "massage"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "medicalEquipment"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "50",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "naturopathy"
+    },
+    {
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "orthodontics"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "50",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "osteopathy"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "physiotherapy"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "perVisitMaximum" : "50",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "podiatry"
+    },
+    {
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "prescriptionDrugs"
+    },
+    {
+      "annualMaximum" : "750",
+      "coinsuranceRate" : "0.5",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "psychology"
+    },
+    {
+      "annualMaximum" : "1000",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "speechTherapy"
+    },
+    {
+      "annualMaximum" : "350",
+      "coinsuranceRate" : "1",
+      "maximumBasisRaw" : "perPerson",
+      "requiresReferral" : false,
+      "serviceTypeRaw" : "vision"
+    }
+  ],
+  "formatVersion" : 1,
+  "kindRaw" : "traditional",
+  "name" : "Air Canada Unifor (active)",
+  "notes" : "From the Unifor plans booklet effective 1 April 2025 (produced March 2026). The PLAN YEAR RUNS 1 APRIL TO 31 MARCH. Deductibles: $10\/$20 per plan year combined for drugs and extended health, with a 3-month carry-forward. Drugs: 100% with a $1,000,000 lifetime maximum (compounds $50 each). Physiotherapy (with athletic and physical-rehabilitation therapy) has NO maximum. Chiropractor, naturopath, osteopath, and podiatry (podiatrist\/chiropodist\/podologist combined) run $50 per visit to $1,000 per person ($2,000 family, in notes as usual), with $100\/yr X-ray allowances on chiropractic, osteopathy, and podiatry. MASSAGE IS PER FAMILY: $80 per visit to $800 per family per plan year with no per-person sub-limit — the gauge aggregates the household. Mental health (clinical counsellors, marriage and family therapists, psychoanalysts, psychologists, psychotherapists, social workers) reimburses 50% per visit to $750 per person ($1,500 family). Speech $1,000\/person. Acupuncture is not listed — no category. Private-duty nursing 60%, electric wheelchairs 50%. Vision: eyewear $350 and exams $125 per 24 months at 100%; laser $600 per 48 CONSECUTIVE MONTHS (not lifetime); therapeutic contacts $1,050 lifetime. Dental (current-year fee guide): 100% diagnostic\/preventive, 90% restorative and supplementary, 50% dentures\/major — $2,000 per plan year combined for Levels I–IV; orthodontics 50% to a $2,500 LIFETIME maximum; TMJ appliances 50% to $1,000 lifetime. Coverage ends the first of the month after retirement.",
+  "planYearStartDay" : 1,
+  "planYearStartMonth" : 4,
+  "sourceDateISO" : "2025-04-01"
+}
