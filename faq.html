@@ -24,6 +24,24 @@
     border-left: 3px solid #B34A1E; padding: 0.2rem 0 0.2rem 0.9rem;
     font-size: 0.95rem;
   }
+  .scroll { overflow-x: auto; margin: 1.2rem 0; }
+  table.windows {
+    border-collapse: collapse; font-size: 0.72rem; line-height: 1.3;
+    min-width: 620px;
+  }
+  table.windows th, table.windows td {
+    padding: 0.18rem 0.14rem; text-align: center; white-space: nowrap;
+  }
+  table.windows .label { text-align: left; padding-right: 0.5rem; }
+  table.windows .num { text-align: right; padding-left: 0.5rem; font-variant-numeric: tabular-nums; }
+  table.windows thead th { opacity: 0.7; font-weight: 600; }
+  table.windows .yearrule th { border-bottom: 1px solid currentColor; opacity: 0.5; }
+  table.windows .spent td { font-weight: 700; }
+  table.windows .win td.in { background: rgba(179, 74, 30, 0.28); }
+  table.windows .win.best td.in { background: rgba(179, 74, 30, 0.55); }
+  table.windows .win td:first-child { opacity: 0.9; }
+  table.windows .best .label, table.windows .best .num { font-weight: 700; }
+  .takeaway { font-size: 0.95rem; }
   footer { margin-top: 3rem; font-size: 0.85rem; opacity: 0.7; }
 </style>
 </head>
@@ -62,6 +80,105 @@ exactly that window on the 2025 return — instead of splitting the total
 across two years and possibly clearing the threshold in neither.
 Almost nobody optimizes this, because doing it by hand means re-adding
 receipts under every possible window.</p>
+
+<h3>Same receipts, very different refunds — a worked example</h3>
+
+<p>Meet a family filing for <strong>tax year 2026</strong>. The
+lower-income spouse's net income is $70,000, so their threshold is
+3% of that: <strong>$2,100</strong>. After both insurance plans paid
+their share, six unreimbursed remainders are left on the ledger:</p>
+
+<p>$400 (orthotics, Feb 2025) · $650 (root canal, Apr 2025) ·
+$500 (physiotherapy, Aug 2025) · $700 (glasses, Nov 2025) ·
+$900 (crown, Jan 2026) · $300 (massage, Jun 2026)</p>
+
+<p>Any 12-month window <em>ending in 2026</em> is allowed. Here are five
+candidates sliding across the same expenses — watch the totals move:</p>
+
+<div class="scroll">
+<table class="windows">
+  <thead>
+    <tr class="yearrule">
+      <th class="label"></th>
+      <th colspan="12">2025</th>
+      <th colspan="12">2026</th>
+      <th class="num"></th>
+      <th class="num"></th>
+    </tr>
+    <tr>
+      <th class="label">Window</th>
+      <th>J</th><th>F</th><th>M</th><th>A</th><th>M</th><th>J</th>
+      <th>J</th><th>A</th><th>S</th><th>O</th><th>N</th><th>D</th>
+      <th>J</th><th>F</th><th>M</th><th>A</th><th>M</th><th>J</th>
+      <th>J</th><th>A</th><th>S</th><th>O</th><th>N</th><th>D</th>
+      <th class="num">Total</th>
+      <th class="num">Claimable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="spent">
+      <td class="label">Spent</td>
+      <td></td><td>400</td><td></td><td>650</td><td></td><td></td>
+      <td></td><td>500</td><td></td><td></td><td>700</td><td></td>
+      <td>900</td><td></td><td></td><td></td><td></td><td>300</td>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="num"></td><td class="num"></td>
+    </tr>
+    <tr class="win">
+      <td class="label">Jan 2026 – Dec 2026 (the calendar-year habit)</td>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td>
+      <td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td>
+      <td class="num">$1,200</td><td class="num">$0</td>
+    </tr>
+    <tr class="win">
+      <td class="label">Mar 2025 – Feb 2026</td>
+      <td></td><td></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td>
+      <td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td>
+      <td class="in"></td><td class="in"></td><td></td><td></td><td></td><td></td>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="num">$2,750</td><td class="num">$650</td>
+    </tr>
+    <tr class="win">
+      <td class="label">May 2025 – Apr 2026</td>
+      <td></td><td></td><td></td><td></td><td class="in"></td><td class="in"></td>
+      <td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td>
+      <td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td></td><td></td>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="num">$2,100</td><td class="num">$0</td>
+    </tr>
+    <tr class="win">
+      <td class="label">Sep 2025 – Aug 2026</td>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+      <td></td><td></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td>
+      <td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td>
+      <td class="in"></td><td class="in"></td><td></td><td></td><td></td><td></td>
+      <td class="num">$1,900</td><td class="num">$0</td>
+    </tr>
+    <tr class="win best">
+      <td class="label">Feb 2025 – Jan 2026 (GRIPE's pick)</td>
+      <td></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td>
+      <td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td><td class="in"></td>
+      <td class="in"></td><td></td><td></td><td></td><td></td><td></td>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+      <td class="num">$3,150</td><td class="num">$1,050</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p class="takeaway">Same six receipts, five different answers. The
+calendar-year habit claims <strong>nothing</strong> — the expenses
+straddle the year end, so no single calendar year clears the threshold.
+The May window gathers $2,100 exactly and misses by a dollar of being
+useful, since only the amount <em>over</em> the threshold counts. Slide
+the window back two more months and the same family claims
+<strong>$1,050</strong> — worth roughly $210–$260 back at combined
+federal-provincial credit rates, from receipts they were going to throw
+in a shoebox either way. The June 2026 massage isn't lost, either: it
+starts the pool for the <em>next</em> year's window, because each
+expense can be claimed once.</p>
 
 <h3>What GRIPE actually does</h3>
 
