@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GRIPE — Frequently Asked Questions</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    max-width: 640px; margin: 0 auto; padding: 2rem 1.25rem;
+    color: #14120F; background: #E8DCC3;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #E8DCC3; background: #14120F; }
+    a { color: #E58A55; }
+  }
+  h1 { font-size: 1.8rem; margin-bottom: 0.2rem; }
+  .tagline { color: #B34A1E; font-weight: 600; margin-top: 0; }
+  a { color: #B34A1E; }
+  h2 { margin-top: 2.4rem; }
+  h3 { margin-top: 1.6rem; }
+  .note {
+    border-left: 3px solid #B34A1E; padding: 0.2rem 0 0.2rem 0.9rem;
+    font-size: 0.95rem;
+  }
+  footer { margin-top: 3rem; font-size: 0.85rem; opacity: 0.7; }
+</style>
+</head>
+<body>
+<h1>Frequently asked questions</h1>
+<p class="tagline">The short answers, and one long one about taxes.</p>
+
+<h2 id="metc">What is the METC, and why does GRIPE make such a fuss about it?</h2>
+
+<p>The <strong>Medical Expense Tax Credit</strong> is a federal (and
+provincial) tax credit for medical expenses you paid out of pocket —
+meaning the portion <em>no insurance plan reimbursed</em>. If your
+household coordinates two or three plans, that's exactly the number GRIPE
+already tracks for every receipt, which is why the app is unusually good
+at this.</p>
+
+<h3>The rules, in plain language</h3>
+
+<p><strong>Only the unreimbursed part counts.</strong> A $120 massage
+where plan one paid $80 and plan two paid $20 contributes $20 — not $120.
+Claiming the gross amount is the classic audit magnet; GRIPE nets every
+expense against what the carriers actually paid.</p>
+
+<p><strong>There's a threshold to beat.</strong> You can only claim the
+part of your total that exceeds the <em>lesser of</em> 3% of net income
+or a dollar ceiling set each year ($2,834 for 2025). This is why the
+credit usually works best claimed on the <em>lower-income</em> spouse's
+return: 3% of a smaller income is a lower bar. Expenses for both spouses
+and dependent children can be pooled on one return.</p>
+
+<p><strong>The window is the part everyone misses.</strong> You don't
+have to claim the calendar year. The CRA allows <em>any 12-month period
+ending in the tax year</em> (as long as no expense is claimed twice).
+A family whose big expenses ran from July 2024 to June 2025 can claim
+exactly that window on the 2025 return — instead of splitting the total
+across two years and possibly clearing the threshold in neither.
+Almost nobody optimizes this, because doing it by hand means re-adding
+receipts under every possible window.</p>
+
+<h3>What GRIPE actually does</h3>
+
+<p>GRIPE holds the complete, reimbursement-netted ledger, so the METC
+optimizer just… tries every window. It sweeps each possible 12-month
+period ending in the tax year, shows which one clears your threshold by
+the most, and marks claimed expenses so they can't be counted again next
+year. When you've picked a window, it exports the whole package: the
+arithmetic and the expense listing as a PDF for your records, and a CSV
+for your tax software.</p>
+
+<p class="note">GRIPE does arithmetic, not tax advice. The optimizer
+tells you which window contains the most unreimbursed money; whether and
+how to claim it is between you, your tax software, and — for anything
+unusual — a professional. Line numbers, receipts-on-request, and the
+travel/attendant-care corners of the METC are theirs, not ours.</p>
+
+<h2 id="storage">Where is my data stored?</h2>
+<p>On your device and in your own private iCloud. There is no GRIPE
+server, no analytics, and no account. See the
+<a href="privacy.html">privacy policy</a> — it's refreshingly short.</p>
+
+<h2 id="filing">Why doesn't GRIPE submit claims for me?</h2>
+<p>No Canadian carrier offers a member-facing claims API, and portal
+scraping is fragile and against their terms. GRIPE tracks what you file
+and computes what to send next; the filing itself stays between you and
+your insurer — which is also why your data can stay private.</p>
+
+<h2 id="order">Which plan do we file with first?</h2>
+<p>Adults file with their own plan first and their spouse's second. For
+children, the industry convention is the <strong>birthday rule</strong>:
+the parent whose birthday falls earlier in the calendar year files first
+(the year of birth doesn't matter). A Health Care Spending Account goes
+last, so it mops up whatever the real plans leave behind. GRIPE suggests
+the order per person and lets you set it — custody arrangements and
+carrier quirks outrank conventions.</p>
+
+<h2 id="students">Our kid is in university — still covered?</h2>
+<p>Usually, yes: many plans cover full-time students until graduation or
+age 25, generally against an annual student confirmation to the carrier.
+GRIPE never flips a dependant to adult on a birthday for exactly this
+reason. When coverage genuinely ends, set the termination date on the
+enrolment — the claim history stays put.</p>
+
+<h2 id="templates">A template's numbers don't match my booklet.</h2>
+<p>Templates are starting points transcribed from published booklets,
+and carriers amend booklets — every figure is editable under Plans, and
+each template shows the booklet edition it came from. Your Explanation
+of Benefits is always the ground truth. If you spot a genuine
+transcription error, <a href="mailto:gripe@dirtymikeboyz.ca">tell us</a>
+and we'll fix the library copy.</p>
+
+<h2 id="planfiles">What's a .gripeplan file?</h2>
+<p>One plan's coverage grid — maximums, co-insurance, shared pools,
+referral rules — in a small file you can share. No names, no claims, no
+health data. Export yours from Plans and send it to a coworker on the
+same plan; their typing is done. Verified files for common plans live in
+the <a href="plans.html">plan library</a>.</p>
+
+<h2 id="notautomatic">Why didn't my expense cascade to the second plan?</h2>
+<p>GRIPE creates the next claim once the previous one has an answer
+recorded — the second insurer needs the first one's Explanation of
+Benefits, so the order matters. If a cascade stopped with money still on
+the table, the Attention list will say so.</p>
+
+<p><a href="index.html">← GRIPE support</a></p>
+
+<footer>Dirty Mike and the Boyz Software · Ottawa, Canada ·
+<a href="privacy.html">Privacy policy</a> · Nothing on this page is
+insurance or tax advice.</footer>
+</body>
+</html>
